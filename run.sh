@@ -2,4 +2,4 @@
 git add .
 commitMessage=$1
 git commit -m "$commitMessage"
-git push -u origin main
+git push -f origin main
