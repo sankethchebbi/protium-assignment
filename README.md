@@ -8,6 +8,6 @@
 - Create a k8s deployment that specifies the number of replicas I want to run, in this case, 2-3 pods, since this needs to be HA.
 - After that, I'll create a k8s service that exposes the deployment to the internet and using a service like LoadBalancer, I'll distribute the traffic across the pods. Also, configure the k8s for a health check ensuring the pods are responding as expected.
 - Deploy a CRUD api service that connects to my java application and exposes the necessary endpoints for CRUD operations.
-- Securing the website using an Outh service like that of google's or GitHub.
+- Securing the website using an Oauth service like that of google's or GitHub.
 - Deploy your website to the Kubernetes cluster and configure it to use the Out provider for authentication. Deploy my site to the cluster and set it up to use and work well with the oath provider.
 - I'II use AWS' RDS or DynamoDB as a DB to store and manage data for my CRUD api.
