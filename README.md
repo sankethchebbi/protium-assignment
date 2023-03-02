@@ -1,7 +1,7 @@
 # protium-assignment
 > i have to deploy a java web service to aws using docker and local kubernetes and i have to make it highly available so 2-3 pods in k8s. i have to use a crud api service for the same and i have to deploy a website and add auth to it. this is how i think i'll go about this:
 
-- Initialize a java web project. This project has a simple Spring Boot application with one endpoint that returns a greeting message - "Hello World!"
+- Initialize a java web project. This project has a simple Spring Boot application with one endpoint that returns a greeting message - "Hello World!" - Spring initializr - https://start.spring.io/
 
 - Containerize the Java application using Docker and create a Dockerfile to contain the necessary dependencies and configuration of the application.
 - Push the image to a container registry like ECR or DHub.
