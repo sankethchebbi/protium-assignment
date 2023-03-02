@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class MyApp {
+public class Protium {
     
     @GetMapping("/")
     public String greet() {
@@ -15,6 +15,6 @@ public class MyApp {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(MyApp.class, args);
+        SpringApplication.run(Protium.class, args);
     }
 }
