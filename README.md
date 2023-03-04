@@ -11,3 +11,5 @@
 - Securing the website using an Oauth service like that of google's or GitHub.
 - Deploy your website to the Kubernetes cluster and configure it to use the Out provider for authentication. Deploy my site to the cluster and set it up to use and work well with the oath provider.
 - I'II use AWS' RDS or DynamoDB as a DB to store and manage data for my CRUD api.
+
+> PS: **Protium** is the folder for implementation only upto CRUD. the v2 has CRUD and the rest.
