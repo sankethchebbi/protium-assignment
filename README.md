@@ -12,4 +12,8 @@
 - Deploy your website to the Kubernetes cluster and configure it to use the Out provider for authentication. Deploy my site to the cluster and set it up to use and work well with the oath provider.
 - I'II use AWS' RDS or DynamoDB as a DB to store and manage data for my CRUD api.
 
-> PS: **Protium** is the folder for implementation only upto CRUD. the v2 has CRUD and the rest.
+> PS: **Protium** is the folder for implementation only upto CRUD. the v2 has CRUD and the rest. PFA some SC of the progress. Couldn't get it up and running on AWS sue to an issue. 
+![Screenshot 2023-03-02 at 7 10 16 PM](https://user-images.githubusercontent.com/34938208/222904492-bfc83dad-5f10-4555-8b27-d6fb0f6b6c9a.jpg)
+![Screenshot 2023-03-02 at 5 38 32 PM](https://user-images.githubusercontent.com/34938208/222904526-7428e636-42e6-4624-8595-11c6c077740f.jpg)
+![Screenshot 2023-03-02 at 5 37 06 PM](https://user-images.githubusercontent.com/34938208/222904532-17c02748-08a3-4de6-b9a6-f220541b1147.jpg)
+![Screenshot 2023-03-02 at 6 31 34 PM](https://user-images.githubusercontent.com/34938208/222904546-4ffc13df-ea24-49fe-9d51-b45567352516.jpg)
