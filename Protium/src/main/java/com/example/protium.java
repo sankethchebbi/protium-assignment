@@ -11,7 +11,7 @@ public class Protium {
     
     @GetMapping("/")
     public String greet() {
-        return "Hello, world!";
+        return "Hello World!";
     }
 
     public static void main(String[] args) {
