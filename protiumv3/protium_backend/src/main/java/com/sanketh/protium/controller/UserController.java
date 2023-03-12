@@ -52,6 +52,4 @@ public class UserController {
         return  "User with id "+id+" has been deleted success.";
     }
 
-
-
 }
