@@ -4,7 +4,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 
 export default function EditUser() {
   let navigate = useNavigate();
-
+  Root_url:String = "http://sankethchebbi.ap-northeast-1.elasticbeanstalk.com/";
   const { id } = useParams();
 
   const [user, setUser] = useState({
@@ -25,12 +25,12 @@ export default function EditUser() {
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    await axios.put(`http://localhost:8080/user/${id}`, user);
+    await axios.put(Root_url+`/user/${id}`, user);
     navigate("/");
   };
 
   const loadUser = async () => {
-    const result = await axios.get(`http://localhost:8080/user/${id}`);
+    const result = await axios.get(Root_url+`/user/${id}`);
     setUser(result.data);
   };
 

@@ -4,7 +4,7 @@ import { Link, useParams } from "react-router-dom";
 
 export default function Home() {
   const [users, setUsers] = useState([]);
-
+  Root_url:String = "http://sankethchebbi.ap-northeast-1.elasticbeanstalk.com/";
   const { id } = useParams();
 
   useEffect(() => {
@@ -12,12 +12,12 @@ export default function Home() {
   }, []);
 
   const loadUsers = async () => {
-    const result = await axios.get("http://localhost:8080/users");
+    const result = await axios.get(Root_url+"/users");
     setUsers(result.data);
   };
 
   const deleteUser = async (id) => {
-    await axios.delete(`http://localhost:8080/user/${id}`);
+    await axios.delete(Root_url+`/user/${id}`);
     loadUsers();
   };
 

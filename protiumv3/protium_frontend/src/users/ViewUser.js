@@ -8,7 +8,7 @@ export default function ViewUser() {
     username: "",
     email: "",
   });
-
+  Root_url:String = "http://sankethchebbi.ap-northeast-1.elasticbeanstalk.com/";
   const { id } = useParams();
 
   useEffect(() => {
@@ -16,7 +16,7 @@ export default function ViewUser() {
   }, []);
 
   const loadUser = async () => {
-    const result = await axios.get(`http://localhost:8080/user/${id}`);
+    const result = await axios.get(Root_url+`/user/${id}`);
     setUser(result.data);
   };
 
