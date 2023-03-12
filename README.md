@@ -19,9 +19,12 @@
 
 - I'II use AWS' RDS or DynamoDB as a DB to store and manage data for my CRUD api.
 
-> PS: **Protium** is the folder for implementation only upto CRUD. **protiumv2** has CRUD and the rest. PFA some SC of the progress.
+# Files and versions
 
-![Screenshot 2023-03-02 at 7 10 16 PM](https://user-images.githubusercontent.com/34938208/222904492-bfc83dad-5f10-4555-8b27-d6fb0f6b6c9a.jpg)
-![Screenshot 2023-03-02 at 5 38 32 PM](https://user-images.githubusercontent.com/34938208/222904526-7428e636-42e6-4624-8595-11c6c077740f.jpg)
-![Screenshot 2023-03-02 at 5 37 06 PM](https://user-images.githubusercontent.com/34938208/222904532-17c02748-08a3-4de6-b9a6-f220541b1147.jpg)
-![Screenshot 2023-03-02 at 6 31 34 PM](https://user-images.githubusercontent.com/34938208/222904546-4ffc13df-ea24-49fe-9d51-b45567352516.jpg)
+I went about the assignment in a way it teaches me methodically how to spin up a full stack, so my learnings in this, just like the versions, got better with each iteration.
+
+- Protium - basic hello world program using spring boot.
+- protiumv2 - implementing CRUD api service without UI/frontend.
+- protiumv3 - implemention of the same with react as a frontend to interact.
+
+here's a youtube video of the implementation: https://youtu.be/dCJ9tJ2nKsQ
